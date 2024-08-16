@@ -1,0 +1,39 @@
+.container{
+display: flex;
+height: 300px;
+
+
+}
+.card{
+    background-color: aquamarine;
+    border: 3px solid #000;
+    width: 200px;
+    border-radius: 25px;
+    flex-wrap: wrap;
+
+}
+.product-img{
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: 10px auto;
+  
+}
+.name{
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+}
+.price{
+    font-size: 20px;
+    text-align: center;
+}
+.btn1{
+    background-color: #000;
+    color:#fff;
+    border-radius: 30px;
+    display: block;
+    margin: 10px auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
